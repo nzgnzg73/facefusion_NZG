@@ -55,6 +55,85 @@ commands:
 ```
 
 
+
+
+
+
+
+
+```
+1. Create and activate a Python virtual environment
+
+py -3.10 -m venv venv
+venv\scripts\activate
+
+2. Try installing packages from requirements.txt
+
+pip install -r requirements.txt
+
+3. Install a compatible version of NumPy
+
+pip install numpy==1.26.4
+
+4. Reinstall requirements.txt without dependencies
+
+pip install -r requirements.txt --no-deps
+
+5. Upgrade pip
+
+python -m pip install --upgrade pip
+
+6. Install OpenVINO
+
+pip install openvino==2025.3.0
+
+7. Install tqdm
+
+pip install tqdm
+
+8. Install OpenCV
+
+pip install opencv-python==4.8.1.78
+pip install opencv-contrib-python==4.8.1.78
+
+9. Check the OpenCV (cv2) version
+
+python -c "import cv2; print(cv2._version_)"
+
+10. Install ONNX Runtime
+
+pip install onnxruntime
+
+11. Install SciPy
+
+pip install scipy
+
+12. Install FFMpeg
+
+pip install FFMpeg
+
+13. Run the final script
+
+python facefusion.py
+
+# Install OpenVINO
+pip install openvino==2025.3.0
+
+# Run facefusion script
+python facefusion.py run
+
+# Install torch and torchvision
+pip3 install torch torchvision
+
+# Install all requirements from requirements.txt
+pip install -r requirements.txt
+
+```
+
+
+
+
+
 Documentation
 -------------
 
